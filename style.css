@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 300px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.container {
+    width: 300px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    left:  0;
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+   
+}
+
+.content {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.bg, .can, .copy, .logo, .hand{
+    position: absolute;
+   
+}
+.m {
+    z-index: 2;
+    position: absolute;
+}
+.bg {
+    width: 300px;
+    height: 250px;
+    z-index: 1;
+}
+.logo {
+    z-index: 2;
+    width: 284px;
+    height: 61;
+    top: 8px;
+    left: 6px;
+
+}
+.can {
+    width: 300px;
+    height: 250px;
+    z-index: 2;
+    position: absolute;
+}
+.hand {
+    width: 44px;
+    height: 36px;
+    z-index: 2;
+    top: 85px;
+    right: 20px;
+}
+.copy {
+    /* 248x96 */
+    scale: 0.5;
+    bottom: 15px;
+    z-index: 2;
+
+}
+.m0 {
+    scale: 0.7;
+    top: 55px;
+    left: 140px;
+}
+.m1 {
+    
+    left: 30px;
+    top: 70px;
+    scale: 0.6;
+
+}
+.m2 {
+    
+    top: 125px;
+    left: 80px;
+    scale: 0.9;
+
+}
+.m3 {
+    top: 85px;
+    left: 100px;
+    scale: 0.4;
+}
+.m4 {
+    scale: 0.7;
+    top: 35px;
+    left: 95px;
+}
+.m5 {
+    scale: 0.7;
+    top: 85px;
+    left: 160px;
+}
+.m6 {
+    scale: 1;
+    top: 170px;
+    left: 30px;
+}
+#adfinixAdLogo {
+    background: #ededed;
+    opacity: 0.8;
+    transition: 0.2s;
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+    right: 0;
+    text-decoration: none;
+    padding: 3px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Oxygen, Cantarell, sans-serif;
+    align-items: center;
+    /* z-index: 1000; */
+    z-index: 100;
+    
+  }
+  
+  #adfinixAdLogo img {
+    width: 15px;
+    height: 15px;
+  }
+  
+  #adfinixAdLogo span {
+    width: 0px;
+    transition: 0.2s;
+    margin-left: 2px;
+    display: inline-block;
+    font-size: 10px;
+    visibility: hidden;
+  }
+  
+  #adfinixAdLogo:hover {
+    opacity: 1;
+  }
+  
+  #adfinixAdLogo:hover span {
+    width: 35px;
+    visibility: visible;
+  }
+  
+  @media (max-width: 299px) {
+    body {
+      overflow: hidden;
+      /* width: fit-content; */
+      transform: scale(0.9, 0.9);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      transform-origin: top left;
+    }
+  }
+  @media (max-width: 250px) {
+    body {
+      overflow: hidden;
+      /* width: fit-content; */
+      transform: scale(0.79, 0.79);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      transform-origin: top left;
+    }
+  }
+  
