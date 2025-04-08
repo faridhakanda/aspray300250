@@ -34,10 +34,14 @@ body {
     right: 0;
     left: 0;
 }
+.hidden {
+    display: none;
+}
 .bg, .can, .copy, .logo, .hand{
     position: absolute;
    
 }
+
 .m {
     z-index: 2;
     position: absolute;
@@ -58,13 +62,20 @@ body {
 .can {
     width: 300px;
     height: 250px;
-    z-index: 2;
+    z-index: 4;
+    position: absolute;
+}
+
+.water {
+    z-index: 3;
+    width: 200px;
+    height: 150px;
     position: absolute;
 }
 .hand {
     width: 44px;
     height: 36px;
-    z-index: 2;
+    z-index: 5;
     top: 85px;
     right: 20px;
 }
@@ -114,6 +125,48 @@ body {
     top: 170px;
     left: 30px;
 }
+
+
+.text1 {
+    z-index: 2;
+    font-size: 12px;
+    top: 90px;
+    left: 60px;
+    position: absolute;
+    color: white;
+}
+.text2 {
+    z-index: 3;
+    position: absolute;
+    
+    color: white;
+    font-weight: bold;
+}
+.text21 {
+    font-size: 18px;
+    top: 115px;
+    left: 40px;
+}
+.text22 {
+    font-size: 15px;
+    top: 140px;
+    left: 60px;
+}
+.text4 {
+    z-index: 2;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 35px;
+
+}
+.mate {
+    color: yellow;
+}
+
+
+
+
 #adfinixAdLogo {
     background: #ededed;
     opacity: 0.8;
