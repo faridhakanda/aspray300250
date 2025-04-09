@@ -43,7 +43,7 @@ body {
 }
 
 .m {
-    z-index: 2;
+    z-index: 5;
     position: absolute;
 }
 .bg {
@@ -66,11 +66,14 @@ body {
     position: absolute;
 }
 
-.water {
-    z-index: 3;
-    width: 200px;
-    height: 150px;
+.spray {
+    z-index: 5;
+    width: 300px;
+    height: 250px;
     position: absolute;
+    top: -60px;
+    left: -84px;
+    transform: rotate(-195deg);
 }
 .hand {
     width: 44px;
@@ -127,7 +130,7 @@ body {
 }
 
 
-.text1 {
+/* .text1 {
     z-index: 2;
     font-size: 12px;
     top: 90px;
@@ -159,12 +162,36 @@ body {
     top: 180px;
     left: 35px;
 
-}
-.mate {
-    color: yellow;
-}
+} */
 
 
+.family {
+    z-index: 10;
+    position: absolute;
+    scale: 0.5;
+    top: 60px;
+    right: 5px;
+}
+.aci {
+    z-index: 10;
+    position: absolute;
+    scale: 0.5;
+    top: 70px;
+    right: 20px;
+}
+.mosquito {
+    z-index: 5;
+    position: absolute;
+    scale: 0.4;
+    top: 130px;
+    right: -2px;
+}
+.batch {
+    z-index: 10;
+    position: absolute;
+    scale: 0.5;
+    left: 100px;
+}
 
 
 #adfinixAdLogo {
